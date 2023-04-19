@@ -1,0 +1,102 @@
+{
+    "message": {
+        "type": "object",
+        "tag": "",
+        "description": "",
+        "properties": {
+            "user": {
+                "type": "object",
+                "tag": "",
+                "description": "",
+                "properties": {
+                    "id": [
+                        {
+                            "type": "string",
+                            "description": "",
+                            "tag": ""
+                        }
+                    ],
+                    "nickname": [
+                        {
+                            "type": "string",
+                            "description": "",
+                            "tag": ""
+                        }
+                    ],
+                    "title": [
+                        {
+                            "type": "string",
+                            "description": "",
+                            "tag": ""
+                        }
+                    ],
+                    "accountType": [
+                        {
+                            "type": "string",
+                            "description": "",
+                            "tag": ""
+                        }
+                    ],
+                    "countryCode": [
+                        {
+                            "type": "string",
+                            "description": "",
+                            "tag": ""
+                        }
+                    ],
+                    "orientation": [
+                        {
+                            "type": "string",
+                            "description": "",
+                            "tag": ""
+                        }
+                    ]
+                },
+                "required": false
+            },
+            "time": {
+                "type": "integer",
+                "description": "",
+                "tag": ""
+            },
+            "acl": {
+                "type": "object",
+                "tag": "",
+                "description": "",
+                "properties": {},
+                "required": false
+            },
+            "publicFeed": {
+                "type": "integer",
+                "description": "",
+                "tag": ""
+            },
+            "internationalCountries": {
+                "type": "array",
+                "description": "",
+                "tag": "",
+                "items": {
+                    "type": "string",
+                    "enum": [
+                        "ABCDEFGHIJKLMNOPQRSTUVWXYZA",
+                        "ABCDEFGHIJKLMNOPQ",
+                        "ABCDEFGHIJKLMNOPQRSTUVW",
+                        "ABCDEFGHIJKLMNOPQRSTUVWXY",
+                        "ABCDEFGHIJK",
+                        "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                        "ABCDEFGHIJKLMNOPQR",
+                        "ABCDEFG",
+                        "ABCDEFGHIJKLM"
+                    ]
+                },
+                "required": false
+            },
+            "topTraderFeed": {
+                "type": "integer",
+                "description": "",
+                "tag": ""
+            }
+        },
+        "required": false
+    }
+}

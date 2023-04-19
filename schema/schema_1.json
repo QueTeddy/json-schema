@@ -1,0 +1,318 @@
+{
+    "message": {
+        "type": "object",
+        "tag": "",
+        "description": "",
+        "properties": {
+            "battle": {
+                "type": "object",
+                "tag": "",
+                "description": "",
+                "properties": {
+                    "id": [
+                        {
+                            "type": "string",
+                            "description": "",
+                            "tag": ""
+                        }
+                    ],
+                    "name": [
+                        {
+                            "type": "string",
+                            "description": "",
+                            "tag": ""
+                        }
+                    ],
+                    "orientation": [
+                        {
+                            "type": "string",
+                            "description": "",
+                            "tag": ""
+                        }
+                    ],
+                    "settings": {
+                        "type": "object",
+                        "tag": "",
+                        "description": "",
+                        "properties": {
+                            "minParticipants": {
+                                "type": "integer",
+                                "description": "",
+                                "tag": ""
+                            },
+                            "maxParticipants": {
+                                "type": "integer",
+                                "description": "",
+                                "tag": ""
+                            },
+                            "battleType": [
+                                {
+                                    "type": "string",
+                                    "description": "",
+                                    "tag": ""
+                                }
+                            ],
+                            "wagerType": [
+                                {
+                                    "type": "string",
+                                    "description": "",
+                                    "tag": ""
+                                }
+                            ],
+                            "countdown": {
+                                "type": "integer",
+                                "description": "",
+                                "tag": ""
+                            },
+                            "duration": {
+                                "type": "integer",
+                                "description": "",
+                                "tag": ""
+                            },
+                            "archetype": {
+                                "type": "object",
+                                "tag": "",
+                                "description": "",
+                                "properties": {
+                                    "name": [
+                                        {
+                                            "type": "string",
+                                            "description": "",
+                                            "tag": ""
+                                        }
+                                    ],
+                                    "iconId": [
+                                        {
+                                            "type": "string",
+                                            "description": "",
+                                            "tag": ""
+                                        }
+                                    ]
+                                },
+                                "required": false
+                            }
+                        },
+                        "required": false
+                    },
+                    "status": [
+                        {
+                            "type": "string",
+                            "description": "",
+                            "tag": ""
+                        }
+                    ],
+                    "creationTime": {
+                        "type": "integer",
+                        "description": "",
+                        "tag": ""
+                    },
+                    "startTime": {
+                        "type": "integer",
+                        "description": "",
+                        "tag": ""
+                    },
+                    "endTime": {
+                        "type": "integer",
+                        "description": "",
+                        "tag": ""
+                    },
+                    "creator": {
+                        "type": "object",
+                        "tag": "",
+                        "description": "",
+                        "properties": {
+                            "id": [
+                                {
+                                    "type": "string",
+                                    "description": "",
+                                    "tag": ""
+                                }
+                            ],
+                            "nickname": [
+                                {
+                                    "type": "string",
+                                    "description": "",
+                                    "tag": ""
+                                }
+                            ],
+                            "title": [
+                                {
+                                    "type": "string",
+                                    "description": "",
+                                    "tag": ""
+                                }
+                            ],
+                            "accountType": [
+                                {
+                                    "type": "string",
+                                    "description": "",
+                                    "tag": ""
+                                }
+                            ],
+                            "countryCode": [
+                                {
+                                    "type": "string",
+                                    "description": "",
+                                    "tag": ""
+                                }
+                            ],
+                            "orientation": [
+                                {
+                                    "type": "string",
+                                    "description": "",
+                                    "tag": ""
+                                }
+                            ]
+                        },
+                        "required": false
+                    },
+                    "participants": {
+                        "type": "array",
+                        "description": "",
+                        "items": {
+                            "user": {
+                                "type": "object",
+                                "tag": "",
+                                "description": "",
+                                "properties": {
+                                    "id": [
+                                        {
+                                            "type": "string",
+                                            "description": "",
+                                            "tag": ""
+                                        }
+                                    ],
+                                    "nickname": [
+                                        {
+                                            "type": "string",
+                                            "description": "",
+                                            "tag": ""
+                                        }
+                                    ],
+                                    "title": [
+                                        {
+                                            "type": "string",
+                                            "description": "",
+                                            "tag": ""
+                                        }
+                                    ],
+                                    "accountType": [
+                                        {
+                                            "type": "string",
+                                            "description": "",
+                                            "tag": ""
+                                        }
+                                    ],
+                                    "countryCode": [
+                                        {
+                                            "type": "string",
+                                            "description": "",
+                                            "tag": ""
+                                        }
+                                    ],
+                                    "orientation": [
+                                        {
+                                            "type": "string",
+                                            "description": "",
+                                            "tag": ""
+                                        }
+                                    ]
+                                },
+                                "required": false
+                            },
+                            "creator": {
+                                "type": "integer",
+                                "description": "",
+                                "tag": ""
+                            },
+                            "ranking": {
+                                "type": "integer",
+                                "description": "",
+                                "tag": ""
+                            },
+                            "numberOfTrades": {
+                                "type": "integer",
+                                "description": "",
+                                "tag": ""
+                            },
+                            "performance": [
+                                {
+                                    "type": "string",
+                                    "description": "",
+                                    "tag": ""
+                                }
+                            ]
+                        },
+                        "tag": "",
+                        "required": false
+                    }
+                },
+                "required": false
+            },
+            "joiner": {
+                "type": "object",
+                "tag": "",
+                "description": "",
+                "properties": {
+                    "id": [
+                        {
+                            "type": "string",
+                            "description": "",
+                            "tag": ""
+                        }
+                    ],
+                    "nickname": [
+                        {
+                            "type": "string",
+                            "description": "",
+                            "tag": ""
+                        }
+                    ],
+                    "title": [
+                        {
+                            "type": "string",
+                            "description": "",
+                            "tag": ""
+                        }
+                    ],
+                    "accountType": [
+                        {
+                            "type": "string",
+                            "description": "",
+                            "tag": ""
+                        }
+                    ],
+                    "countryCode": [
+                        {
+                            "type": "string",
+                            "description": "",
+                            "tag": ""
+                        }
+                    ],
+                    "orientation": [
+                        {
+                            "type": "string",
+                            "description": "",
+                            "tag": ""
+                        }
+                    ]
+                },
+                "required": false
+            },
+            "participantIds": {
+                "type": "array",
+                "description": "",
+                "tag": "",
+                "items": {
+                    "type": "string",
+                    "enum": [
+                        "ABCDEFGHIJKLMNOPQRST",
+                        "ABCDEFGHIJKLMNOPQRSTUVWXY"
+                    ]
+                },
+                "required": false
+            }
+        },
+        "required": false
+    }
+}
